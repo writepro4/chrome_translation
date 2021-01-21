@@ -1,0 +1,20 @@
+{
+  "name": "code not touch",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "코드까지 번역하는 현상을 막기위한 플러그인",
+  "permissions": [
+    "activeTab",
+    "*://*/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/*"
+      ],
+      "js": [
+        "main.js"
+      ]
+    }
+  ]
+}
