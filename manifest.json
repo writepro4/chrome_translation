@@ -4,7 +4,6 @@
   "version": "1.0",
   "description": "코드까지 번역하는 현상을 막기위한 플러그인",
   "permissions": [
-    "activeTab",
     "*://*/*"
   ],
   "content_scripts": [
